@@ -3,6 +3,7 @@
   <component name="AutoImportedSourceRoots">
     <option name="directories">
       <list>
+        <option value="src/aop" />
         <option value="src/main/java" />
         <option value="src/spring_introduction" />
       </list>
