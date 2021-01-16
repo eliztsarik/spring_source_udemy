@@ -10,8 +10,9 @@ import org.springframework.stereotype.Component
 @Order(2)
 open class SecurityAspect {
 
-    @Before("aop.aspects.MyPointcuts.allGetMethods()")
-    open fun beforeGetSecurityAdvice() {
-        println("BeforeGetSecurityAdvice check rights to take a book/magazine")
+    @Before("aop.aspects.MyPointcuts.allAddMethods()")
+    open fun beforeAddSecurityAdvice() {
+        println("beforeAddSecurityAdvice check rights to take a book/magazine")
+        println("--------------------------------------")
     }
 }
